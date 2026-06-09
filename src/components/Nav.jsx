@@ -25,7 +25,11 @@ export default function Nav() {
     <>
       <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
         <div className="wrap nav-inner">
-          <a href="#top" className="brand" aria-label="Richard Antablin — home">
+          <a
+            href="https://www.antablin.com"
+            className="brand"
+            aria-label="The Antablin family — antablin.com"
+          >
             <span className="badge">{profile.initials}</span>
             <span>
               Antablin <span className="eit">EIT</span>
